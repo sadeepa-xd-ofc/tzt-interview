@@ -2,11 +2,60 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('https://files.catbox.moe/gt9gna.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(to right, #000, #333);
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.glow {
+  font-size: 50px;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.tagline {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #00ffff;
+  font-size: 26px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #00ffff;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #888;
 }
